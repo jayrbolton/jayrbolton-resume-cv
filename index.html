@@ -1,108 +1,89 @@
 <html>
   <head>
     <title>Jay R Bolton CV/Résumé</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,400i,800,900&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <link rel="stylesheet" href="/index.css">
   </head>
 
-  <body class="serif">
+  <body class="serif tl">
     <main class='mw7 pa4'>
-      <header class='flex justify-between items-center bb b--lightest-green bw2 pb3 mb3'>
+      <header class='flex justify-between items-center pb3'>
         <div>
           <h1 class='name mv0 mt0 w-100 o-80'>Jay R Bolton</h1>
           <div class='black-60 f4-5'>Senior software engineer</div>
         </div>
         <section class='contact black-70'>
-          <div class='contact-phone mb1'><a href='tel:+15052636320'>(505) 263–6320</a></div>
+          <div class='contact-phone mb1'><a href='tel:15052636320'>(505) 263-6320</a></div>
           <div class='contact-email mb1'><a href='mailto:jayrbolton@gmail.com'>jayrbolton@gmail.com</a></div>
           <div class='contact-website'><a href='https://www.jayrbolton.com' target='_blank'>www.jayrbolton.com</a></div>
         </section>
       </header>
 
       <section class='experience'>
-        <h2 class='mb2 mt0 mb0'>Experience</h2>
-        <div class='mt2 mb3'>
-          <div class='mb1 flex items-center f4-5'>
-            <span class='dark-green b'>Full Stack Software Engineer, KBase (Berkeley Lab)</span>
-            <span class='diamond mh2'></span>
-            <span class='black-70 dib'>2018 - Present</span>
-          </div>
-          <div class='tj'>
-            KBase is a bioinformatics platform that enables scientists to
-            analyze and expand the data they collect in the lab. I work on core
-            backend services in Python, such as graph database APIs and the
-            search engine. I also help to expand and document the
-            bioinformatics SDK for third-party developers.
-            <ul class='mt1'>
-              <li>Helped architect and build the Relation Engine using ArangoDB and Python, which aggregates a range of relationships among biological data across the platform</li>
-              <li>Received a lab recognition award for my work on the Relation Engine</li>
-              <li>Helped architect and build the search engine using Apache Kafka and Elasticsearch</li>
-              <li>Used high performance computing clusters at NERSC to do large scale pangenome data analysis</li>
-              <li>Built and maintained numerous microservices in Python</li>
-              <li>Designed and implemented user interfaces for bioinformatics tools with React</li>
-            </ul>
+        <h2 class='mb3 mt0 mb0 f2-5 black-60'>Experience</h2>
+
+        <div class='flex'>
+          <div class='w-25 f4 b'>2018 - Current</div>
+          <div class='w-75'>
+            <div class='flex items-center f4'>
+              <span class='b'>Full Stack Software Engineer, KBase (Berkeley Lab)</span>
+            </div>
+            <p class='tj black-80'>
+              KBase enables bench scientists to analyze research data and run bioinformatics workflows interactively. I work on core backend services in Python and Go, such as graph database APIs and the search engine. I also help to expand and document the bioinformatics SDK for third-party developers.
+            </p>
+            <p class='tj black-80'>
+              In 2019, I received a lab recognition award for my work on the Relation Engine, which creates and queries large networks of biological data. I also regularly use high performance computing at NERSC to run large-scale genome sequence analysis.
+            </p>
           </div>
         </div>
-        <div class='mv3'>
-          <div class='mb1 flex items-center f4-5'>
-            <span class='dark-green b'>Full Stack Software Engineer, Contracted</span>
-            <span class='diamond mh2'></span>
-            <span class='black-70 dib'>2017 - 2018</span>
-          </div>
-          <div class='tj'>
-            <ul class='mt1'>
-              <li>Helped plan and implement RallyStarter, a political advocacy platform</li>
-              <li>Created performant database servers using Docker, Redis, MySQL, and AWS</li>
-              <li>Wrote encryption libraries and helped with grant proposals for the Dat Project</li>
-            </ul>
+        <div class='flex'>
+          <div class='w-25 f4 b'>2017 - 2018</div>
+          <div class='w-75'>
+            <div class='flex items-center f4'>
+              <span class='b'>Full Stack Software Engineer, Contracted</span>
+            </div>
+            <p class='tj black-80'>
+              I helped plan and implement RallyStarter, a political advocacy platform. We set up a performant backend using Docker, Redis, MySQL, and AWS, along with a React frontend. For the Dat Project, I wrote encryption libraries and helped to write grant proposals.
+            </p>
           </div>
         </div>
-        <div class='mv3'>
-          <div class='mb1 flex items-center f4-5'>
-            <span class='dark-green b'>CTO, CommitChange</span>
-            <span class='diamond mh2'></span>
-            <span class='black-70 dib'>2012 - 2017</span>
-          </div>
-          <div class='tj'>
-            I was the technical co-founder for CommitChange and was responsible
-            for building its web platform, hiring and managing the engineering
-            team, and working directly with customers. We graduated from the
-            BoostVC startup accelerator, finished a seed funding round shortly
-            after, and reached profitability.
-            <ul class='mt1'>
-              <li>
-                Worked closely with customers to build various nonprofit
-                fundraising tools, such as event ticketing, capital campaigns,
-                data visualization dashboards, and a donor relationship
-                manager.
-              </li>
-              <li>Received funding from Mark Cuban, Tim Draper, 500 Startups, and other investors</li>
-              <li>Processed over $25 million in donations on behalf of nonprofits</li>
-            </ul>
+        <div class='flex'>
+          <div class='w-25 f4 b'>2012 - 2017</div>
+          <div class='w-75'>
+            <div class='flex items-center f4'>
+              <span class='b'>CTO, CommitChange</span>
+            </div>
+            <p class='tj black-80'>
+              I was the technical co-founder for CommitChange and was responsible for building its web platform, hiring and managing the engineering team, and working directly with customers. We graduated from the BoostVC startup accelerator and received funding from Mark Cuban and Tim Draper. We processed over $25 million in donations on behalf of nonprofits.
+            </p>
+            <p class='tj black-80'>
+              I worked closely with customers to build a range of nonprofit fundraising tools, including event ticketing, capital campaigns, data visualization dashboards, and a donor relationship manager.
+            </p>
           </div>
         </div>
       </section>
 
-      <section class='education mt2 pt2 bt bw2 b--lightest-green'>
-        <h2 class='mt2 mb2'>Education</h2>
-        <div class='education-body'>
-          <div class='education-body-name b black-80 mb1 f4-5 dark-green'>Bachelor of Science in Computer Science and Mathematics</div>
-          <div class='education-body-place b black-60 mb1'>
-            The Evergreen State College, Olympia, WA
-          </div>
-          <div class='education-body-desc tj'>
-            <ul class='mt1'>
-              <li>System administrator of the Scientific Lab for Advanced Computing Research</li>
-              <li>Worked as a computer science tutor for two years</li>
-              <li>Explored interests in functional programming, type theory, and assembly language</li>
-              <li>Wrote a type inferencer for Python and a JVM bytecode machine in Logisim</li>
-              <li>Interned as a web engineer at MerchantOS (now Lightspeed POS)</li>
-            </ul>
+      <section class='education'>
+        <h2 class='mb3 mt0 mb0 f2-5 black-60'>Education</h2>
+        <div class='flex'>
+          <div class='w-25 f4 b'>2012</div>
+          <div class='w-75'>
+            <div class='flex items-center f4'>
+              <span class='b'>Bachelor of Science in Computer Science</span>
+            </div>
+            <p class='tj black-80 mt1 mb0 b black-60'>
+              The Evergreen State College, Olympia, WA
+            </p>
+            <p class='tj black-80'>
+              I worked as a computer science tutor, a system administrator of the Scientific Lab for Advanced Computing Research, and interned as a platform engineer for MerchantOS (now Lightspeed POS). I explored interests in functional programming, type theory, and assembly language.
+            </p>
           </div>
         </div>
       </section>
+
     </main>
 
   </body>
 </html>
+

@@ -1,10 +1,10 @@
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 body, .serif {
-  font-family: Lato;
-  background: #ddd;
+  font-family: 'Public Sans', sans-serif;
+  background: white;
   display: flex;
   justify-content: center;
 }
@@ -13,6 +13,7 @@ main {
 }
 main > header h1 {
   font-size: 2.65rem;
+  font-weight: 800;
 }
 h2 {
   font-size: 1.5rem;
@@ -28,18 +29,18 @@ ul li:last-child {
   margin-bottom: 0;
 }
 h1,h2,h3,h4 {
-  color: #19A974;
 }
 a {
   text-decoration: none;
-  color: #357EDD;
 }
 .dark-green {
-  color: #398167;
 }
 .b--lightest-green {
   border-color: rgba(149, 193, 177, 0.2);
 }
 .f4-5 {
   font-size: 1.1rem;
+}
+.f2-5 {
+    font-size: 2rem;
 }
