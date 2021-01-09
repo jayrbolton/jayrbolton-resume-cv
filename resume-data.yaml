@@ -11,23 +11,36 @@ website:
 
 experience:
   - date: "2018 - Current"
-    title: Full Stack Software Engineer, KBase (Berkeley Lab)
+    title: Software Engineer, KBase (Lawrence Berkeley Lab)
     desc:
-      - KBase enables bench scientists to analyze research data and run bioinformatics workflows interactively. I work on core backend services in Python and Go, such as graph database APIs and the search engine. I also help to expand and document the bioinformatics SDK for third-party developers.
-      - In 2019, I received a lab recognition award for my work on the Relation Engine, which creates and queries large networks of biological data. I also regularly use high performance computing at NERSC to run large-scale genome sequence analysis.
+      - I work alongside a team of scientists and engineers enabling active
+        research on complex genomic data gathered in the biology lab. Using
+        Python and Go, I wrote and maintain KBase's graph database API and search
+        engine, which helps users expand their knowledge of basic genomic data.
+      - I received a lab recognition award for my work on the Relation Engine.
+        Powered by a graph database, it aggregates, queries, and clusters large
+        networks of biological data.
   - date: "2017 - 2018"
     title: Full Stack Software Engineer, Contracted
     desc:
-      - I helped plan and implement RallyStarter, a political advocacy platform. We set up a performant backend using Docker, Redis, MySQL, and AWS, along with a React frontend. For the Dat Project, I wrote encryption libraries and helped to write grant proposals.
+      - I helped plan and implement RallyStarter, a political advocacy platform. We set up a performant backend using Docker, Redis, MySQL, and AWS, along with a React frontend. For the Dat Project, I wrote encryption libraries and helped with grant proposals.
   - date: "2012 - 2017"
     title: CTO, CommitChange
     desc:
-      - I was the technical co-founder for CommitChange and was responsible for building its web platform, hiring and managing the engineering team, and working directly with customers. We graduated from the BoostVC startup accelerator and received funding from Mark Cuban and Tim Draper. We processed over $25 million in donations on behalf of nonprofits.
-      - I worked closely with customers to build a range of nonprofit fundraising tools, including event ticketing, capital campaigns, data visualization dashboards, and a donor relationship manager.
+      - I led the implementation of the fundraising platform, working closely
+        with customers as our product evolved. I was responsible for managing a
+        small team of engineers and running most business operations. We
+        graduated from the BoostVC startup accelerator, received funding
+        from Mark Cuban and Tim Draper, and became profitable, processing over
+        $25 million in payments on behalf of nonprofits.
+      - Our small team built a wide range of well-received nonprofit
+        fundraising tools using Ruby on Rails, including event ticketing,
+        capital campaigns, data visualization dashboards, and a donor
+        relationship manager.
 
 education:
   - date: "2012"
     degree: Bachelor of Science in Computer Science
     school: The Evergreen State College, Olympia, WA
     desc:
-      - I worked as a computer science tutor, a system administrator of the Scientific Lab for Advanced Computing Research, and interned as a platform engineer for MerchantOS (now Lightspeed POS). I explored interests in functional programming, type theory, and assembly language.
+      - I worked as a computer science tutor, system administrator of the Scientific Lab for Advanced Computing Research, and interned as a platform engineer for MerchantOS (now Lightspeed POS). I explored interests in functional programming, type theory, bioinformatics, and assembly language.

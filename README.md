@@ -1,3 +1,6 @@
+The data for the resume is found in `resume-data.yaml`, while the layout is found in `resume-template.hbs`
+
+Compile:
 
 ```
 poetry install
