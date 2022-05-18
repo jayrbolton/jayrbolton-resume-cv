@@ -1,106 +1,147 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="X-UA-Compatible" content="IE=edge">
-    <title>Jay R Bolton</title>
-    <meta name="description" content="Jay R Bolton, software engineer in Oakland, CA">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="short icon" href="favicon.png">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css">
+    <meta charset="UTF-8">
+    <title>Jay R Bolton CV/Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,400i,500,800,900&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css">
     <script type="text/javascript" src="monkeypatch.min.js"></script>
+    <style>
+        html,
+        body {
+          min-height: 100%;
+        }
+        body, .serif {
+          font-family: 'Work Sans', sans-serif;
+          background: white;
+        }
+        main {
+          background: white;
+          margin-top: 6px;
+        }
+        h1, h2, h3, h4, h5 {
+          font-weight: 500;
+        }
+        main > header h1 {
+          font-size: 2.65rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+        ul {
+          padding-left: 1.25rem;
+        }
+        ul li {
+          margin-bottom: 0.15rem;
+        }
+        ul li:last-child {
+          margin-bottom: 0;
+        }
+        h1,h2,h3,h4 {
+        }
+        a {
+          text-decoration: none;
+        }
+        .dark-green {
+        }
+        .b--lightest-green {
+          border-color: rgba(149, 193, 177, 0.2);
+        }
+        .f4-5 {
+          font-size: 1.1rem;
+        }
+        .f2-5 {
+            font-size: 2rem;
+        }
+        .stripe::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            background: url("color-mosaic.png");
+            height: 6px;
+            width: 100%;
+            top: 0;
+        }
+    </style>
   </head>
 
-  <body>
-    <div style="margin-left: auto;margin-right: auto;max-width: 55rem;" class="">
-      
-      <section class="container">
-        <div class="home-list">
+  <body class="serif tl">
+    <div class="stripe"></div>
+    <main class="mw7 pa4">
+      <header class="flex justify-between items-center pb3">
+        <div>
+          <h1 class="name mv0 mt0 w-100 o-80">Jay R Bolton</h1>
+          <div class="black-80 f4-5">Software engineer</div>
+        </div>
+        <section class="contact black-80">
+          <div class="contact-phone mb1"><a href="tel:15052636320">(505) 263-6320</a></div>
+          <div class="contact-email mb1"><a href="mailto:jayrbolton@gmail.com">jayrbolton@gmail.com</a></div>
+          <div class="contact-website"><a href="https://www.jayrbolton.com" target="_blank">www.jayrbolton.com</a></div>
+        </section>
+      </header>
 
-          <div style="margin-top: 2.5rem">
-            <canvas style="max-width: 100%;" width="900" height="400">
-            </canvas>
-          </div><div class="home-list-item">
-            <h1 style="font-size: 1.5rem;">Jay R Bolton</h1>
-          </div><div class="home-list-item">
-            <p>Hello! I am a software engineer with interests in computational biology, creative coding, and sharing knowledge. I currently work on infrastructure for genomics data analysis at <a href="https://kariusdx.com" target="_blank">Karius Diagnostics</a>.</p>
-          </div>
+      <section class="experience">
+        <h2 class="mb3 mt0 mb0 f2-5 black-80">Experience</h2>
 
-          <div class="home-list-item">
-            <div class="home-list-item-text">
-              <a href="mailto:jayrbolton+home@gmail.com" target="_blank" title="Email me">
-                Email me
-              </a>
+        <div class="flex">
+          <div class="w-25 f4">2021 - Present</div>
+          <div class="w-75">
+            <div class="flex items-center f4">
+              <span class="">Senior Software Engineer, Karius</span>
             </div>
+            <p class="tj black-80 mv2">I help architect and engineer the batch compute infrastructure, analysis database, and research libraries at Karius. These tools use genome sequencing and machine learning to rapidly diagnose infectious diseases in immunocompromised and seriously ill patients. I collaborate across teams of engineers, molecular biologists, and doctors, designing new systems and optimizing the performance of our analysis pipeline.</p>
+            
           </div>
-
-          <div class="home-list-item">
-            <div class="home-list-item-text">
-              <a href="https://www.jayrbolton.com/jayrbolton-resume-cv/" target="_blank" title="Resume/CV">
-                Resume/CV
-              </a>
+        </div><div class="flex">
+          <div class="w-25 f4">2018 - 2021</div>
+          <div class="w-75">
+            <div class="flex items-center f4">
+              <span class="">Software Engineer, KBase (Lawrence Berkeley Lab)</span>
             </div>
+            <p class="tj black-80 mv2">
+              I worked alongside a team of scientists and engineers enabling active research on complex genomic data gathered in the biology lab. Using Python and Go, I wrote and maintain KBase's graph database API and search engine, which helps users expand their knowledge of basic genomic data.
+            </p>
+            <p class="tj black-80 mv2">
+              I received a lab recognition award for my work on the Relation Engine. Powered by a graph database, it aggregates, queries, and clusters large networks of biological data.
+            </p>
           </div>
-
-          <div class="home-list-item">
-            <div class="home-list-item-text">
-              <a href="https://github.com/jayrbolton" target="_blank">
-                My Github</a>, which lists most of my active and past projects
+        </div>
+        
+        <div class="flex">
+          <div class="w-25 f4">2012 - 2017</div>
+          <div class="w-75">
+            <div class="flex items-center f4">
+              <span class="">CTO, CommitChange</span>
             </div>
+            <p class="tj black-80 mv2">
+              I led the implementation of the nonprofit fundraising platform, working closely with customers as our product evolved. I was responsible for managing a small team of engineers and running most business operations. We graduated from the BoostVC startup accelerator, received funding from Mark Cuban and Tim Draper, and became profitable, processing over $25 million in payments on behalf of nonprofits.
+            </p>
+            <p class="tj black-80 mv2">
+              Our small team built a wide range of well-received nonprofit fundraising tools using Ruby on Rails, including event ticketing, capital campaigns, data visualization dashboards, and a donor relationship manager.
+            </p>
           </div>
-
-          <div class="home-list-item">
-            <div class="home-list-item-text">
-              <a href="https://www.jayrbolton.com/wiki">
-                Wiki</a>
-            </div>
-          </div>
-
-          
-
-          <script type="text/javascript">
-            (function() {
-              var start = window.performance.now();
-              var canv = document.querySelector('canvas');
-              var ctx = canv.getContext('2d');
-              ctx.globalCompositeOperation = 'source-over';
-              ctx.save();
-              function drawOne (ctx, posX, posY, scaleX, scaleY, alpha) {
-                // For reference: ctx.transform(horizScale, vertSkew, horizSkew, vertScale, horizTranslation, vertTranslation)
-                ctx.translate(posX, posY);
-                ctx.transform(scaleX, 0, 0, scaleY, 0, 0);
-                // Draw circle
-                var region = new window.Path2D();
-                region.arc(0, 0, 100, Math.PI * 2, false);
-                region.closePath();
-                // Draw fill
-                ctx.fillStyle = "rgba(100, 150, 250, " + alpha + ")";
-                ctx.fill(region)
-                ctx.resetTransform();
-              };
-              function draw (ts) {
-                ctx.fillStyle = "#f6f6f6";
-                ctx.fillRect(0, 0, 900, 400);
-                var ts = window.performance.now() - start;
-                for (var i = 0; i < 60; i++) {
-                  var speed = 0.00001;
-                  var rowCount = 12;
-                  var posX = 50 + Math.floor(i % rowCount) * 70;
-                  var posY = 50 + Math.floor(i / rowCount) * 70;
-                  var alpha = 1.1 - Math.abs(Math.sin(ts * speed * i));
-                  var scaleX = Math.abs(Math.sin(ts * speed * i)) * 0.3;
-                  var scaleY = Math.abs(Math.sin(ts * speed * i)) * 0.3;
-                  drawOne(ctx, posX, posY, scaleX, scaleY, alpha);
-                }
-                window.requestAnimationFrame(draw);
-              };
-              draw();
-            })();
-          </script>
-
         </div>
       </section>
-      
-    
 
-</div></body>
+      <section class="education">
+        <h2 class="mb3 mt0 mb0 f2-5 black-80">Education</h2>
+        <div class="flex">
+          <div class="w-25 f4">2012</div>
+          <div class="w-75">
+            <div class="flex items-center f4">
+              <span class="">Bachelor of Science in Computer Science</span>
+            </div>
+            <p class="tj black-80 mt1 mb0 mv2">
+              The Evergreen State College, Olympia, WA
+            </p>
+            <p class="tj black-80">
+              I worked as a computer science tutor, system administrator of the Scientific Lab for Advanced Computing Research, and interned as a platform engineer for MerchantOS (now Lightspeed POS). I explored interests in functional programming, type theory, bioinformatics, and assembly language.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  
+
+
+</body>
